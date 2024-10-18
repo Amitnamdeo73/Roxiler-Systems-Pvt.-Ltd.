@@ -1,0 +1,16 @@
+{
+  "name": "roxiler-systems-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backendAPI && npm start",
+    "client": "cd frontend && npm start"
+  },
+  "author": "Amit namdeo",
+  "license": "ISC",
+  "description": "Roxiler Assignment",
+  "dependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
